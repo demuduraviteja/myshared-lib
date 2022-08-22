@@ -1,0 +1,8 @@
+@Library('Devops_library@main')_
+node
+{
+  stage('Gitcheckout')
+  {
+     SourceCheckout("https://github.com/demuduraviteja/myshared-lib.git","main")
+  }
+}
