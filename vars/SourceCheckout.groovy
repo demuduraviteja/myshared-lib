@@ -1,4 +1,4 @@
-def call(def giturl,def branch,def git_Cred_ID)
+def call(def giturl, def branch, def git_Cred_ID)
 {
   echo ""
   echo "******* Git URL : ${giturl} *******"
