@@ -1,4 +1,4 @@
-@Library('Devops_library@main') _
+@Library('Devops_library@main')_
 node
 {
   stage('Gitcheckout')
